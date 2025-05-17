@@ -164,7 +164,7 @@ h1{
     width: 100%;
 }
 .block-img img{
-    width: 110%;
+    width: 100%;
 }
 .text{
     z-index: 1;
@@ -198,14 +198,15 @@ html{
 }
 .news{
     position: relative;
+    justify-items: center;
     height: 1245px;
-    width: 100%;
-    padding: 0 15%;
+    width: 98%;
+    
 }
 .s_header{
     z-index: 2;
     top: 20px;
-    left: 30px;
+    left: -500px;
     padding: 10px;
     width: 150px;
     height: 34px;
