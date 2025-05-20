@@ -28,6 +28,14 @@
 
 }
 
+.burger {
+  display: none;
+  font-size: 30px;
+  color: #e4dad1;
+  cursor: pointer;
+  margin-left: auto;
+  z-index: 10;
+}
 .navigation{
     display: flex;
     flex-grow: 1;
@@ -39,6 +47,30 @@
     letter-spacing: 0px;
     justify-content: space-between;
     text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .navigation {
+    display: none;
+    flex-direction: column;
+    column-gap: 10px;
+    right: -20px;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 100px;
+    padding: 10px;
+    height: 400px;
+    border-radius: 8px;
+  }
+
+  .navigation.show {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
 }
 
 .navigation a{

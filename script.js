@@ -1,6 +1,4 @@
-function toggleMenu() {
-    document.querySelector('.navigation').classList.toggle('show');
-  }
+
 
 const video = document.querySelector('.video-div video');
 
@@ -17,3 +15,6 @@ const video = document.querySelector('.video-div video');
 
 
   });
+function toggleMenu() {
+  document.querySelector('.navigation').classList.toggle('show');
+}
